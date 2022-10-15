@@ -11,9 +11,6 @@ int main()
    printf("Enter the location where you wish to delete element\n");
    scanf("%d", &position);
 
-   if (position >= n+1)
-      printf("Deletion not possible.\n");
-
 
    if (position >= n+1)
       printf("Deletion not possible.\n");
